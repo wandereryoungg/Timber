@@ -187,6 +187,7 @@ public class MainActivity extends BaseActivity implements ATEActivityThemeCustom
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         navigationMap.put(Constants.NAVIGATE_LIBRARY, navigateLibrary);
         navigationMap.put(Constants.NAVIGATE_PLAYLIST, navigatePlaylist);
         navigationMap.put(Constants.NAVIGATE_QUEUE, navigateQueue);
